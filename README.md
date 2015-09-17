@@ -1,7 +1,6 @@
 # Vagrant ElasticSearch Cluster
 ___
 
-<br/>
 
 ## The Cluster
 
@@ -13,7 +12,6 @@ ___
 | node4         | 192.168.1.104 |
 | node5         | 192.168.1.105 |
 
-<br/>   
 
 ## Installation   
 
@@ -26,7 +24,6 @@ Clone the repo to your local machine: `$ git@github.com:francomile/vagrant-elast
 
 Open a terminal, go to the cloned folder, and run `vagant up`:    
 
-<br/>   
 
 ```
 
@@ -58,7 +55,6 @@ Bringing machine 'node5' up with 'virtualbox' provider...
 
 ```    
 
-<br>    
 
 Go take a long coffee because Vagrant will take some time in doing it's thing.
 When you come back, you'll have a 5 node ElasticSeach cluster running.    
@@ -68,7 +64,6 @@ You can see your cluster status and all nodes by entering [http://192.168.1.101:
 
 ![image](http://i60.tinypic.com/51dif6.png)   
 
-<br/>   
 
 ## Tweaking for your needs
 
@@ -89,7 +84,6 @@ If you wish to change the hostnames or IPs of your nodes, you can do in the `Vag
 ### The `node*.pp` files   
 The .pp files are the Puppet provision for each node. Tweak them for your needs.
 
-<br/>   
 
 ## Using Vagrant to access and manage nodes
 
