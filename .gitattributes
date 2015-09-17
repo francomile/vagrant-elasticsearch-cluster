@@ -1,0 +1,80 @@
+.gitattributes !filter !diff
+
+# These files are text and should be normalized (Convert crlf => lf)
+*.php text
+*.css text
+*.js text
+*.scss text
+*.less text
+*.htm text
+*.html text
+*.xml text
+*.txt text
+*.ini text
+*.inc text
+*.sh text
+*.pp text
+*.py text
+*.rb text
+*.pm text
+*.pl text
+*.prl text
+*.plx text
+*.perl text
+*.yml text
+*.json text
+*.src text
+*.jsp text
+*.c text
+*.cc text
+*.cpp text
+*.run text
+*.bash text
+Vagrantfile text
+.htaccess text
+.bashrc text
+.vimrc text
+.bash_profile text
+*.cnf text
+*.conf text
+
+# These files are binary and should be left untouched
+# (binary is a macro for -text -diff)
+*.png binary
+*.PNG binary
+*.JPEG binary
+*.JPG binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.tgz binary
+*.bz binary
+*.tar binary
+*.Z binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.otf binary
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Documents
+*.doc  diff=astextplain
+*.DOC  diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF  diff=astextplain
+*.rtf  diff=astextplain
+*.RTF  diff=astextplain
