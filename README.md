@@ -25,9 +25,9 @@ Clone the repo to your local machine: `$ git@github.com:francomile/vagrant-elast
 Open a terminal, go to the cloned folder, and run `vagant up`:    
 
 
-```
+```shell
 
-$ cd ~/challenge_francomile
+$ cd ~/vagrant-elasticsearch-cluster
 $ vagrant up
 
 Bringing machine 'node1' up with 'virtualbox' provider...
