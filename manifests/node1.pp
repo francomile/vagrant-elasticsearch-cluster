@@ -5,7 +5,7 @@ class{ 'java':
 
 class { 'elasticsearch':
   package_url => 'https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-1.7.1.deb',
-  config => { 'cluster.name' => 'es-cluster-talkdesk',
+  config => { 'cluster.name' => 'es-cluster',
     'network' => {
         'host' => '0.0.0.0',
     }
