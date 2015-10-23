@@ -13,6 +13,7 @@
 .AppleDouble
 .LSOverride
 .vagrant/**/*
+.fab_tasks~
 # Icon must end with two \r
 Icon
 
